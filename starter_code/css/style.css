@@ -2,7 +2,7 @@
 Project Name: Blank Template
 Client: Your Client
 Author: Your Name
-Developer @GA in NYC
+Developer @GA in LA
 */
 
 
@@ -46,14 +46,54 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #606161;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  margin: auto;
+  width: 100%;
 }
-
+button {
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+  border: 0px;
+  margin: 32px;
+}
+h1 {
+  font-size: 24px;
+  color: white;
+  font-weight: 800;
+}
+h2 {
+  font-size: 20px;
+  color: #121212;
+}
+h3 {
+  font-size: 18px;
+}
+img {
+  margin: 24px 12px 24px 12px;
+}
+section {
+  background-color: #f9e42e;
+  text-align: center;
+}
+#yellow {
+  color: #f9e42e;
+}
+.center {
+  text-align: center;
+}
+.semi {
+  font-weight: 600;
+}
+.italics {
+  font-weight: 300;
+  font-style: italic;
+}
 
 /******************************************
 /* LAYOUT
@@ -63,22 +103,64 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
-
 }
 
 header {
-
+  padding-top: 16px;
+  padding-bottom: 48px;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  background-position: center;
 }
 
 footer {
-
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+  background-color: #121212;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+.three {
+  width: 66.66%;
+}
+.third {
+  width: 33.33%;
+}
+.max {
+  max-width: 736px;
+  margin: 0 auto;
+  padding: 48px;
+}
+.maxnav {
+  max-width: 736px;
+  margin: 0 auto;
+  padding: 24px 48px 48px 48px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-
-
+.large {
+  font-size: 14px;
+  color: #033048;
+  background: #f9e42e;
+  padding: 16px 32px 16px 32px;
+}
+.small {
+  font-size: 12px;
+  color: white;
+  background: #033048;
+  padding: 8px 16px 8px 16px;
+}
+.greybg {
+  background-color: #f0efef;
+}
+.quote {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  color: white;
+}
 
