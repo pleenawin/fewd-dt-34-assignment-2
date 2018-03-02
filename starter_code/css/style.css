@@ -81,6 +81,9 @@ section {
   background-color: #f9e42e;
   text-align: center;
 }
+p {
+  margin-bottom: 16px;
+}
 #yellow {
   color: #f9e42e;
 }
@@ -163,4 +166,3 @@ footer {
   background-size: cover;
   color: white;
 }
-
